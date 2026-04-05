@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <!-- Global loading overlay (fetch in progress) -->
+    <div id="loading-overlay" class="loading-overlay hidden" aria-hidden="true">
+      <div class="spinner" aria-label="Loading"></div>
+      <p class="loading-text">Loading…</p>
+    </div>
+
+    <!-- API / validation errors -->
+    <div id="error-banner" class="error-banner hidden" role="alert"></div>
+
+    <!-- Start screen -->
+    <section id="screen-start" class="screen card visible">
+      <h1 class="title">Quiz</h1>
+      <p class="subtitle">Answer the questions and see your score at the end.</p>
+      <button type="button" id="btn-start" class="btn btn-primary">Start Quiz</button>
+    </section>
+
+    <!-- Quiz screen -->
+    <section id="screen-quiz" class="screen card hidden" aria-live="polite">
+      <header class="quiz-header">
+        <span id="progress-label" class="progress-label">Question 1 of 1</span>
+        <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+          <div id="progress-fill" class="progress-fill"></div>
+        </div>
+      </header>
+
+      <h2 id="question-text" class="question-text"></h2>
+
+      <fieldset class="options-fieldset">
+        <legend class="sr-only">Choose an answer</legend>
+        <div id="options-container" class="options-container"></div>
+      </fieldset>
+
+      <footer class="quiz-footer">
+        <button type="button" id="btn-next" class="btn btn-primary" disabled>Next</button>
+      </footer>
+    </section>
+
+    <!-- Results screen -->
+    <section id="screen-results" class="screen card hidden">
+      <h1 class="title">Results</h1>
+      <p id="results-message" class="results-message"></p>
+      <div id="results-detail" class="results-detail"></div>
+      <button type="button" id="btn-restart" class="btn btn-secondary">Play again</button>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
