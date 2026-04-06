@@ -11,7 +11,7 @@ This repository is designed to demonstrate practical full-stack fundamentals wit
 
 ## Live Demo
 
-- **Application URL:** `https://<your-deployed-url>`
+- **Application URL:** `https://quiz-console-ground.onrender.com`
 - **Repository URL:** `https://github.com/Dhanush-kumar-143/Quiz-Console-Ground`
 
 > Update these 2 links after deployment so interviewers can open them directly.
@@ -21,10 +21,10 @@ This repository is designed to demonstrate practical full-stack fundamentals wit
 ## Screenshots
 
 ### Start Screen
-![Quiz Start Screen](docs/screenshots/start-screen.png)
+![Quiz Start Screen](C:\Users\bhoga\OneDrive\Pictures\Screenshots)
 
 ### Question Screen
-![Quiz Question Screen](docs/screenshots/question-screen.png)
+![Quiz Question Screen](C:\Users\bhoga\OneDrive\Pictures\Screenshots)
 
 ### Result Screen
 ![Quiz Result Screen](docs/screenshots/result-screen.png)
@@ -248,13 +248,3 @@ For enterprise scale, next steps would include:
 - CI/CD pipeline and observability
 
 ---
-
-## Interview Talking Points
-
-If you are discussing this project in interviews, highlight:
-
-1. Why you migrated from console to web architecture.
-2. How you designed API contracts for frontend-backend integration.
-3. How you handled UX details (loading states, validation, error handling).
-4. How you made the project deployable (Maven Wrapper, Docker, env-based config).
-5. What you would improve next for production readiness.
