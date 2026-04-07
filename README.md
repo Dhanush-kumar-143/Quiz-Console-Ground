@@ -21,10 +21,10 @@ This repository is designed to demonstrate practical full-stack fundamentals wit
 ## Screenshots
 
 ### Start Screen
-![Quiz Start Screen](C:\Users\bhoga\OneDrive\Pictures\Screenshots)
+![Quiz Start Screen](docs/screenshots/start-screen.png)
 
 ### Question Screen
-![Quiz Question Screen](C:\Users\bhoga\OneDrive\Pictures\Screenshots)
+![Quiz Question Screen](docs/screenshots/question-screen.png)
 
 ### Result Screen
 ![Quiz Result Screen](docs/screenshots/result-screen.png)
